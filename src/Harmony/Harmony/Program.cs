@@ -17,8 +17,7 @@ namespace Harmony
             Console.WriteLine("> Harmony: In-Game Black Ops III Alias Compiler UwU Edition");
             Console.WriteLine("> Developed by Scobalula");
             Console.WriteLine("> Version {0}", Assembly.GetExecutingAssembly().GetName().Version);
-            Console.WriteLine("> Donate     @ https://paypal.com/Scobalula");
-            Console.WriteLine("> Discord    @ https://discord.gg/fGVpV39");
+            Console.WriteLine("> Discord    @ https://discord.com/invite/RyqyThu");
             Console.WriteLine("> -------------------------------------------------");
 
             foreach(var arg in args)
