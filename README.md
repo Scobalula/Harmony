@@ -1,6 +1,10 @@
 ## Harmony
 
-Harmony is a tool that will allow you to edit aliases in-game in real time from your csv files.
+Harmony is a tool that will allow you to edit aliases in-game in real time from your csv files. This can make the process of editing weapon sounds such as those from newer Call of Duty Titles drastically easier.
+
+Harmony has been tested on files on my PC but hasn't seen widespread use, if you'd like to file a bug report, please open an issue, or join my Discord server for help, support and more:
+
+[Click to join my Discord Server](https://discord.gg/RyqyThu).
 
 ## Using Harmony
 
