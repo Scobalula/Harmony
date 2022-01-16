@@ -8,7 +8,7 @@ Harmony has been tested on files on my PC but hasn't seen widespread use, if you
 
 ## Using Harmony
 
-You'll need the x64 .NET Core 3.1 runtime before running Harmony, available [Here](https://dotnet.microsoft.com/download).
+You'll need the x64 .NET Core 3.1 runtime before running Harmony, available [Here](https://dotnet.microsoft.com/en-us/download/dotnet).
 
 To use Harmony simply run it while a map/mod is running, and make eny edits you want to csv/template files in the aliases or templates folder. Any changes to files in those the aliases and templates folder will trigger an update for Harmony to reload them.
 
