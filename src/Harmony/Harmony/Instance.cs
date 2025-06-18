@@ -224,7 +224,7 @@ namespace Harmony
         {
             TemplateBank = new SoundBank("Template");
 
-            foreach(var file in Directory.EnumerateFiles(SoundTemplatesFolder, "*.csv"))
+            foreach(var file in Directory.EnumerateFiles(SoundTemplatesFolder, "*.csv", SearchOption.AllDirectories))
             {
                 Console.WriteLine("> Parsing {0}", file);
                 string[] header = null;
@@ -256,7 +256,7 @@ namespace Harmony
         {
             SourceBank = new SoundBank("Source");
 
-            foreach (var file in Directory.EnumerateFiles(SoundAliasesFolder, "*.csv"))
+            foreach (var file in Directory.EnumerateFiles(SoundAliasesFolder, "*.csv", SearchOption.AllDirectories))
             {
                 if (IsAliasFileValid(Path.GetFileNameWithoutExtension(file)))
                 {
